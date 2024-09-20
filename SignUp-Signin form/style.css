@@ -1,0 +1,64 @@
+body{
+ height: 100vh;
+ width: 100wh;
+ align-items: center;
+ text-align: center;
+ background: linear-gradient(to bottom, grey, rgb(252, 192, 80));
+ display: flex;
+ flex-wrap: nowrap;
+ justify-content: center;
+}
+
+.maininpdiv{
+    /* margin-left: 450px; */
+    margin-top: 70px;
+height: 450px;
+width: 450px;
+background-color: orangered;
+text-align: center;
+border: 3px solid orange;
+align-items: center;
+
+}
+.inpdiv > input{
+    width: 50%;
+    height: 20px;
+    font-size: 16px;
+    padding: 8px;
+    background-color: white;
+    color: black;
+    border: 2px solid orange;
+    border-radius: 0px;
+    margin-bottom: 10px;
+} 
+.inpdiv > input:hover{
+    background-color: rgb(223, 193, 193);
+    border-radius: 0px,
+}
+h1{
+    margin-top: 60px;
+}
+.signemail{
+    margin-top: 10px;
+}
+.btndiv > button{
+    width: 55%;
+    height: 50px;
+    font-size: 16px;
+    padding: 8px;
+    background-color: white;
+    color: black;
+    border: 2px solid orange;
+    border-radius: 0px;
+    text-align: center;
+}
+.btndiv > button:hover{
+    background-color: #000;
+    color: white;
+}
+.signbtn{
+    margin-bottom: 10px;
+}
+.imge{
+    border-radius: 30px;
+}
